@@ -6,7 +6,7 @@ public class Answer {
         {
             Console.WriteLine($"Точка ({x},{y}) находится в I четверти");
         }
-        else if (x > 0 && y < 0)
+        else if (x < 0 && y > 0)
         {
             Console.WriteLine($"Точка ({x},{y}) находится в II четверти");
         }
